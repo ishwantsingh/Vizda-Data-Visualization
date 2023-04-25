@@ -5,7 +5,7 @@
 
 ### 1.1. Motivation
 
-Scientific data visualizations are crucial for comprehending, analyzing, and communicating scientific findings. Data visualizations can help researchers in visualizing equations by providing a way to plot and analyze the relationships between variables and parameters in the equation, making it easier to understand and interpret the data. Also, they can help researchers to identify patterns, trends, and relationships in large and complex datasets more quickly and effectively than with raw data alone, leading to new insights and discoveries. The idea of the project is to build a Python program that solves certain mathematical equations and algorithms and then holds the capacity to visualize scientific data obtained from them as spectrograms, 2D or 3D plots, time series or any other representations. To construct several types of visualizations and add interaction, the application will employ various object-oriented principles such as factory methods, inheritance, abstract base classes, and decorators. The application will also include test code to check that it works properly and fits the criteria. We will then use Spinx to create documentation, which will be deployed along with the program.
+Scientific data visualizations are crucial for comprehending, analyzing, and communicating scientific findings. Data visualizations can help researchers in visualizing equations by providing a way to plot and analyze the relationships between variables and parameters in the equation, making it easier to understand and interpret the data. Also, they can help researchers to identify patterns, trends, and relationships in large and complex datasets more quickly and effectively than with raw data alone, leading to new insights and discoveries. The idea of the project is to build a Python program that solves certain mathematical equations and algorithms and then holds the capacity to visualize scientific data obtained from them as spectrograms, 2D or 3D plots, time series or any other representations. To construct several types of visualizations and add interaction, the application will employ various object-oriented principles such as factory methods, inheritance, abstract base classes, and decorators. The application will also include test code to check that it works properly and fits the criteria. We will then use Sphinx to create documentation, which will be deployed along with the program.
 
 ### 1.2. Project Outline
 
@@ -18,7 +18,7 @@ Provided below is the project outline:
 3. Write code to store the output in a meaningful manner to be later retrieved for visualization.
 4. Implemnt appropriate visualization/graphs for the computed equations.
 5. Create GUI for the program
-6. Write code to generate documentation using Spinx
+6. Write code to generate documentation using Sphinx
 
 ### 1.3. Desired Code Functionality
 
@@ -89,10 +89,10 @@ Below is an overview of the technological stack that will be used:
 ## 4. Timeline
 
 27 April | Understand Mathematical Equations
-1 May | Transfer main computational functions
-5 May | Alpha Version complete
-8 May | Improve GUI and test accuracy
-12 May | Project Complete
+1 May | Implement functions to compute output
+5 May | Plot visualization graphs
+8 May | Perform unit and system tests
+12 May | Create documentation using Sphinx and finalize project
 
 ## 5. Project Extensions
 
