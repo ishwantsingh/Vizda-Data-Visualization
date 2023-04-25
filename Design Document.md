@@ -82,10 +82,9 @@ Below is an overview of the technological stack that will be used:
 
 ## 3. UML Diagram and Code Structure Proposal
 
-UML Diagram: 
-![alt text][UML Diagram]
+ UML Diagram: 
+![UML Diagram](https://github.com/ishwantsingh/Vizda-Data-Visualization/blob/updateDocument/assets/vizdaUml.png?raw=true)
 
-[UML Diagram]: https://github.com/ishwantsingh/Vizda-Data-Visualization/tree/updateDocument/assets/vizdaUml.png "UML Diagram"
 
 ## 4. Timeline
 
