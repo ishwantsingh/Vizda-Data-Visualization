@@ -80,7 +80,7 @@ Below is an overview of the technological stack that will be used:
 3. Testing Framework: pytest
 4. Version Control: Github
 
-## 3. UML Diagram and Code Structure Proposal
+## 3. UML Diagram
 
  UML Diagram: 
 ![UML Diagram](https://github.com/ishwantsingh/Vizda-Data-Visualization/blob/updateDocument/assets/vizdaUml.png?raw=true)
