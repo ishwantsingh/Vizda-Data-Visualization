@@ -77,6 +77,35 @@ Below is an overview of the technological stack that will be used:
 
 ## 3. UML Diagram
 
+The UML diagram provides a class diagram, which is a type of structural diagram that shows the classes, their attributes, operations, and the relationships between them.
+
+The diagram consists of several classes, represented by rectangles with the class name written inside. The classes are connected by various types of relationships, represented by lines with arrowheads. 
+
+In the given UML diagram, there are two abstract base classes: FourierTransform and PlotCurve.
+
+FourierTransform is an abstract base class that contains a private abstract method called transform(). This class is inherited by four concrete classes that implement different types of Fourier transforms:- 
+- ForwardFourierTransform
+- InverseFourierTransform
+- CosineFourierTransform
+- SineFourierTransform. 
+
+These classes override the transform() method to provide their respective implementations.
+
+PlotCurve is also an abstract base class that defines the interface for plotting different types of curves. This class has two abstract methods: plot() and show(). This class is inherited by two concrete classes:-
+
+- LineGraph
+- ScatterGraph
+
+which implement these methods according to their specific requirements. The LineGraph class plots data points with a line, while the ScatterGraph class plots data points with individual markers.
+
+Both of these abstract base classes define the interfaces for their respective functionalities and provide a common structure for their concrete implementations. The concrete classes that inherit these abstract base classes must implement the methods defined in the abstract base class, ensuring adherence to the interface and providing flexibility in the implementation of specific functionalities.
+
+The factory pattern is a design pattern that allows the creation of objects without specifying the exact class of object that will be created. In Python, the factory pattern can be implemented using factory functions or classes that return instances of different classes based on input parameters. 
+
+The FourierTransformFactory is responsible for creating different types of Fourier transforms, which are implemented as subclasses of the FourierTransform abstract base class. This factory method has a create_transform method which takes a parameter that specifies the type of transform to create, and returns an instance of the appropriate subclass.
+
+Similarly, the PlotCurveFactory is responsible for creating different types of plot curves, which are implemented as subclasses of the PlotCurve abstract base class. This factory method has a create_graph method which takes a parameter that specifies the type of plot curve to create, and returns an instance of the appropriate subclass.
+
  UML Diagram: 
 ![UML Diagram](https://github.com/ishwantsingh/Vizda-Data-Visualization/blob/updateDocument/assets/vizdaUml.png?raw=true)
 
