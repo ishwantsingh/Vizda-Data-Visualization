@@ -13,7 +13,7 @@ To construct a program that computes and visualizes scientific data, the project
 
 Provided below is the project outline:
 
-1. Understand the theory of the Mathematical equations and implement them using python.
+1. Understand the theory of the Mathematical equations and implement them using Python.
 2. Compute the specified Mathematical Equation based on the input provided using a YAML file.
 3. Write code to store the output in a meaningful manner to be later retrieved for visualization.
 4. Implemnt appropriate visualization/graphs for the computed equations.
@@ -45,27 +45,22 @@ The Fourier transform is a powerful mathematical tool used to analyze and repres
 
 The forward Fourier transform of a signal can be represented by the equation:
 
-F(w) = ∫f(t) e^(-jwt) dt
+F(k)=F<sub>x</sub> \[f(x)\](k) = ∫<sub>∞</sub><sup>−∞</sup> F(k)e<sup>-2πikx</sup>dk
 
-where F(w) is the Fourier transform of f(t), j is the imaginary unit, w is the angular frequency, and f(t) is the signal in the time domain.
 
 The inverse Fourier transform can be represented by the equation:
 
-f(t) = (1/2π) ∫F(w) e^(jwt) dw
+f(x)=F<sub>K</sub><sup>−1</sup> \[F(k)\](x) = ∫<sub>∞</sub><sup>−∞</sup> F(k)e<sup>2πikx</sup>dk
 
-where f(t) is the signal in the time domain, F(w) is the Fourier transform of f(t), and j is the imaginary unit.
+In addition to the standard Fourier transform, there are also the cosine Fourier transform and the sine Fourier transform, which are used to analyze signals that have even or odd symmetry, respectively. 
 
-In addition to the standard Fourier transform, there are also the cosine Fourier transform and the sine Fourier transform, which are used to analyze signals that have even or odd symmetry, respectively. The cosine Fourier transform can be represented by the equation:
+The Fourier transform for cosines of a real function is defined as the real part of a full complex Fourier transform.
 
-Fc(w) = ∫f(t) cos(wt) dt
+F<sub>x</sub><sup>(c)</sup>\[f(x)\](k) = ∫<sub>∞</sub><sup>−∞</sup> cos (2πkx) f(x)dx
 
-where Fc(w) is the cosine Fourier transform of f(t), and f(t) is the signal in the time domain.
+The Fourier sine transform is defined as the imaginary part of full complex Fourier transform, and it is given by:
 
-The sine Fourier transform can be represented by the equation:
-
-Fs(w) = ∫f(t) sin(wt) dt
-
-where Fs(w) is the sine Fourier transform of f(t), and f(t) is the signal in the time domain.
+F<sub>x</sub><sup>(s)</sup>\[f(x)\](k) = ∫<sub>∞</sub><sup>−∞</sup> sin (2πkx) f(x)dx
 
 Python provides several libraries such as NumPy and SciPy which offer various functions for Fourier transforms and their inverse. In order to visualize these transforms, the Matplotlib library can be used to plot the frequency spectrum of the signal in the frequency domain.
 
@@ -89,9 +84,13 @@ Below is an overview of the technological stack that will be used:
 ## 4. Timeline
 
 27 April | Understand Mathematical Equations
+
 1 May | Implement functions to compute output
+
 5 May | Plot visualization graphs
+
 8 May | Perform unit and system tests
+
 12 May | Create documentation using Sphinx and finalize project
 
 ## 5. Project Extensions
