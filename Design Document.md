@@ -120,10 +120,10 @@ Similarly, the PlotCurveFactory is responsible for creating different types of p
 
 8 May | Perform unit and system tests
 
-12 May | Create documentation using Sphinx and finalize project
+12 May | Create documentation using Sphinx and finalize the project.
 
 ## 5. Project Extensions
 
 1. Deploy the code for easier access on any device.
-2. Implemnt more scientific algorithms and graphical representations for wider applications.
+2. Implement more scientific algorithms and graphical representations for wider applications.
 
